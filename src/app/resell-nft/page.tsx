@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const resellNft = () => {
-  return (
-    <div>resellNft</div>
-  )
-}
+  return <div>resellNft</div>;
+};
 
-export default resellNft
+export default resellNft;

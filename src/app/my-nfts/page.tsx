@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const MyNft = () => {
-  return (
-    <div>MyNFT</div>
-  )
-}
+  return <div>MyNFT</div>;
+};
 
-export default MyNft
+export default MyNft;

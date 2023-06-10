@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const createdNfts = () => {
-  return (
-    <div>createdNfts</div>
-  )
-}
+  const nfts = [
+    { name: 'nft1' },
+    { name: 'nft2' },
+  ];
+  return <div>{nfts[0].name}</div>;
+};
 
-export default createdNfts
+export default createdNfts;
